@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #664785, #120538 100vh);
+  background-attachment: fixed;    /*esto hace en respecto a la pantalla*/
+  overflow-wrap: break-word;   /* salto de linea en la pagina */
+  word-break: normal; 
+}
+
+.encabezado {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* color de fondo */
+  color: rgb(255, 255, 255);
+  /* color del texto */
+  height: auto;
+  /* alto del segmento */
+  width: flex;
+  display: flex;
+  /* para alinear contenido */
+  align-items: center;
+  /* centra verticalmente */
+  justify-content: center;
+  /* separa logo y título */
+  padding: 0 30px;
+  /* margen interno */
+}
+
+.logo {
+  width: 100px;
+  /* tamaño del logo */
+  height: 100px;
+  display: flex;
+}
+
+
+.titulo {
+  font-size: 35px;
+  margin: 2 20;
+
+}
+
+.titulo2 {
+  font-size: 15px;
+  margin: 0;
+
+
+}
+
+/*nadvar*/
+.nav-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+
+}
+
+
+
+
+
+
+/*INICIO*/
+.Folletos {
+  background-color: white;
+  height: auto;
+  width: 50%;
+  padding: 1px 10px ;
+  margin: 5px 0px 4px 0px;
+  display: flex;          /* convierte cada texto suelto en un hijo flex */
+  word-spacing: "\A";
+  flex-direction: column; /* los apila verticalmente */
+  border-radius: 20px;
+  border: 3px solid black;
+  
+}
+
+
+.Redes{
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  border: 3px solid black;
+  width: 50%;
+  padding: 1px 10px ;
+  margin: 5px 0px 0px 0px;
+
+  border-radius: 20px;
+}
+
+
+.Publicidad_Hablada {
+  background-color: white;
+  height: auto;
+  width: 50%;
+  padding: 1px 10px ;
+  margin: 5px 0px px 0px;
+  display: flex;          /* convierte cada texto suelto en un hijo flex */
+  word-spacing: "\A";
+  flex-direction: column; /* los apila verticalmente */
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+/*.cuarota {
+  background-color: aqua;
+  height: auto;
+  width: auto;
+  transition: all 0.3s ease-out;
+}
+
+.cuarota:hover {
+  transform: scale(1,1);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.cua2{
+  background-color: rgb(24, 122, 122);
+  height: 30vh;
+  width: 30vh;
+  transform: translate(100px, 1180px);
+}
+.cua3:hover{
+  background-color: rgb(33, 19, 159);
+  height: 30px;
+  width: 30px;            /*arreglar el lineado de ctivacion
+  animation: rotate 3s infinite linear;
+}*/
+
+
+/*CONTENIDO*/
+
+.titulos{
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  margin: 5px 0px 4px 0px;          /* convierte cada texto suelto en un hijo flex */
+  border-radius: 20px;
+  text-align: center;
+  border: 3px solid black;
+}
+.expocitores{
+  display: flex;
+  width: 100%;
+}
+
+.e1exponer,
+.e2exponer{
+  background-color: white;
+  height: auto;
+  width: 50%;
+  margin: 5px 0px 4px 0px;          /* convierte cada texto suelto en un hijo flex */
+  border-radius: 20px;
+  padding: 1px 10px ;
+  border: 3px solid black;
+}
+
+
+.organizacion{
+  background-color: white;
+  border: 3px solid black;
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  padding: 1px 10px ;
+}
+
+
+.feria{
+  display: flex;          /* los pone en línea */
+  align-items: flex-start; /* alinea arriba (ajústalo a center si quieres) */
+  gap: 15px;
+}
+.imgorganizar{
+  width: 50%;           /* o el tamaño que necesites */
+  height: auto;
+  border-radius: 10px; 
+}
+.cuadroferia{
+  background-color: white;
+  border: 3px solid black;
+  height: auto;
+  width: 100%;
+  border-radius: 20px;
+  padding: 1px 10px ;
+}
+
+.folletoz,
+.red,
+.publiprecen,
+.imageness{
+  display: flex;
+  width: 100%;
+  
+}
+
+
+.img{
+  width: 50%;
+  border-radius: 20px;
+  margin: 5px 0px 4px 0px;
+  object-fit: cover;
+}
+.corta-abajo {
+  clip-path: inset(0 0 17px 0); 
+  border: 20px;
+}
+
+
+/*.que:hover{
+  
+  transform: rotate(90° 3s infinite);     requiere pocicion anterior
+}*/
+
